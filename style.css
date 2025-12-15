@@ -10,13 +10,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 95px;
+  height: 250px;
 }
 
 .container ul {
   display: flex;
   list-style: none;
-  gap: 50px;
+  gap: 90px;
 }
 
 .container ul li a {
@@ -29,4 +29,13 @@
   width: 80px;
   padding-left: 20px;
   margin-left: 20px;
+}
+
+.perkenalan h1{
+  font-family: "Poppins", sans-serif;
+  
+}
+.Gambar {
+  width: 340px;
+  float: right;
 }
