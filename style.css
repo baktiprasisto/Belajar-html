@@ -78,10 +78,26 @@ body {
   color: #E3E3E3;
   background-color: #1B3C53;
 }
-.body a {
-  width: 100px;
-  padding: 10px 20px;
-}
+
 .Gambar {
   width: 340px;
+}
+
+.social {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.social img {
+  width: 40px;
+  opacity: 0.8;
+  transition: all 0.3s ease;
+}
+
+.social img:hover {
+  opacity: 1;
+  transform: translateY(-5px);
 }
