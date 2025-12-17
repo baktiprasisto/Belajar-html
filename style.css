@@ -116,14 +116,18 @@ body {
 }
 
 .about-title {
+  padding: 50px;
   text-align: center;
   font-size: 48px;
   margin-bottom: 80px;
+  text-decoration: underline;
   font-family: "Poppins", sans-serif;
 }
 
 .about-content {
+  border: 1px solid black;
   display: flex;
+  max-width: 500px;
   justify-content: center;
   gap: 80px;
   align-items: center;
@@ -135,5 +139,8 @@ body {
 }
 
 .about-text {
-  max-width: 420px;
+  border: 1px solid black;
+  max-width: 100%;
+  padding: 100px;
+  
 }
