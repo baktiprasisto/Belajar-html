@@ -99,6 +99,7 @@ body {
 }
 
 .social img {
+  border: 1px solid black;
   width: 40px;
   opacity: 0.8;
   transition: all 0.3s ease;
@@ -107,4 +108,30 @@ body {
 .social img:hover {
   opacity: 1;
   transform: translateY(-5px);
+}
+
+.about {
+  width: 100%;
+  padding: 100px 0;
+}
+
+.about h2 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.about-content {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  align-items: center;
+}
+
+.about-content img {
+  width: 300px;
+  border-radius: 12px;
+}
+
+.about-text {
+  max-width: 400px;
 }
