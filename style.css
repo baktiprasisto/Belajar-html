@@ -118,6 +118,7 @@ body {
 
 .about-title {
   /* border: 1px solid black; */
+  color: #1b3c53;
   padding: 50px;
   text-align: center;
   font-size: 48px;
@@ -151,16 +152,57 @@ body {
 }
 
 .about-skill {
-  margin-top: 140px;
+  margin-top: 40px;
 }
 
 .project{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 100%;
   padding: 50px 0;
 }
 
 .project-title{
+  color: #1b3c53;
+  padding: 30px;
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 80px;
+  text-decoration: underline;
+  font-family: "Poppins", sans-serif;
+}
+
+.project-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  width: 90%;
+  margin: auto;
+}
+
+.project-content a {
+  background: #1b3c53;
+  border-radius: 10px;
+  padding: 10px;
+  display: grid;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  transition: .3s;
+  border: 1px solid #ddd;
+}
+
+.project-content a:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.project-content img {
+  width: 100%;
+  height: 250px;        
+  object-fit: cover;   
+  border-radius: 8px;
+}
+
+.contact-title {
+  color: #1b3c53;
   padding: 50px;
   text-align: center;
   font-size: 48px;
