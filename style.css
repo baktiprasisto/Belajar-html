@@ -252,3 +252,39 @@ body {
   padding: 5px 10px;
   height: 200px;
 }
+
+.footer {
+  /* border: 1px solid black; */
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer a {
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  padding: 10px;
+  width: 50px;
+  display: flex;
+  transition: 0.3s;
+  border: 1px solid #ddd;
+}
+
+.footer a:hover {
+  opacity: 1;
+  transform: translateY(-5px);
+}
+
+.footer a img {
+  width: 100%;
+}
+
+.footer-sosmed {
+  display: flex;
+}
+
+.footer-logo {
+  width: 50px;
+}
