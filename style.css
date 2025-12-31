@@ -288,3 +288,9 @@ body {
 .footer-logo {
   width: 50px;
 }
+
+.footer p {
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  font-size: 20px;
+}
